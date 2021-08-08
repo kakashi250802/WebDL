@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.courses-slide .swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
     slidesPerGroup: 3,
@@ -6,7 +6,7 @@ var swiper = new Swiper('.swiper-container', {
     loopFillGroupWithBlank: true,
 
     navigation: {
-        nextEl: ".button-next",
-        prevEl: ".button-prev",
+        nextEl: ".courses-slide .button-next",
+        prevEl: ".courses-slide .button-prev",
     },
 });
