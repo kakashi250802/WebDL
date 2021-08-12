@@ -19,8 +19,8 @@ var reviews = new Swiper('.comment-slide .swiper-container', {
     loopFillGroupWithBlank: true,
 
     navigation: {
-        nextEl: ".comment-slide .button-next",
-        prevEl: ".comment-slide .button-prev",
+        nextEl: ".comment-slide .button-next-comment",
+        prevEl: ".comment-slide .button-prev-comment",
     },
 });
 var coOperateSlides = new Swiper('.co-operate-slide .swiper-container', {
@@ -31,7 +31,7 @@ var coOperateSlides = new Swiper('.co-operate-slide .swiper-container', {
     loopFillGroupWithBlank: true,
 
     navigation: {
-        nextEl: ".co-operate-slide .button-next",
-        prevEl: ".co-operate-slide .button-prev",
+        nextEl: ".co-operate-slide .button-next-co-operate",
+        prevEl: ".co-operate-slide .button-prev-co-operate",
     },
 });
