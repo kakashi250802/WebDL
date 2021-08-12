@@ -18,8 +18,20 @@ document.querySelector('.courses-slide .button-prev').addEventListener('click', 
 // courses category list
 let coursesCategoryItems = document.querySelector('#category-courses-item');
 let coursesSlidesList = [{
-        picDemo: './assets/img/Course image.svg',
+        picDemo: './assets/img/Course image-1.svg',
         name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -30,8 +42,8 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
-        name: 'Everything You Need to Know About Business',
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -42,8 +54,20 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
+        picDemo: './assets/img/Course image-1.svg',
         name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -54,8 +78,8 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
-        name: 'Everything You Need to Know About Business',
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -66,8 +90,20 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
+        picDemo: './assets/img/Course image-1.svg',
         name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -78,8 +114,8 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
-        name: 'Everything You Need to Know About Business',
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -90,8 +126,20 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
+        picDemo: './assets/img/Course image-1.svg',
         name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -102,8 +150,8 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
-        name: 'Everything You Need to Know About Business',
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -114,8 +162,20 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
+        picDemo: './assets/img/Course image-1.svg',
         name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -126,8 +186,8 @@ let coursesSlidesList = [{
         played: '4.5'
     },
     {
-        picDemo: './assets/img/Course image.svg',
-        name: 'Everything You Need to Know About Business',
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
         picAuthor: './assets/img/author1.svg',
         authorName: 'Nicole Brown',
         oldPirce: '$99.99',
@@ -136,7 +196,115 @@ let coursesSlidesList = [{
         followed: '120',
         viewed: '28,500',
         played: '4.5'
-    }
+    },
+    {
+        picDemo: './assets/img/Course image-1.svg',
+        name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
+    {
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
+    {
+        picDemo: './assets/img/Course image-1.svg',
+        name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
+    {
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
+    {
+        picDemo: './assets/img/Course image-1.svg',
+        name: 'Everything You Need to Know About Business',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '36'
+    },
+    {
+        picDemo: './assets/img/Course image-2.svg',
+        name: 'Statistics Data Science and Business Analysis',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
+    {
+        picDemo: './assets/img/Course image-3.svg',
+        name: 'AWS Certified Solutions Architect Associate',
+        picAuthor: './assets/img/author1.svg',
+        authorName: 'Nicole Brown',
+        oldPirce: '$99.99',
+        newPirce: '$49.65',
+        voted: '4.5',
+        followed: '120',
+        viewed: '28,500',
+        played: '4.5'
+    },
 ]
 let coursesCategoryList = [
 
@@ -194,7 +362,7 @@ renderCategoryCourseList = () => {
                 <div class="base-info">
                     <div>
                         <img src="./assets/img/Star.svg" alt="">
-                        <p>${item.voted} ${item.followed}</p>
+                        <p>${item.voted} (${item.followed})</p>
                     </div>
                     <div>
                         <img src="./assets/img/viewed.svg" alt="">
@@ -202,7 +370,7 @@ renderCategoryCourseList = () => {
                     </div>
                     <div>
                         <img src="./assets/img/play-circle.svg" alt="">
-                        <p>${item.played} ${item.followed}</p>
+                        <p>${item.played} Lession</p>
                     </div>
                 </div>
                 <div class="course-name">
