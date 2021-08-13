@@ -957,7 +957,7 @@ footer .category>li>a {
     transition: all 0.5s ease-in-out;
 }
 
-footer .category>li:hover a {
+footer .category>li>a:hover {
     color: var(--Tittle--active-color);
 }
 
