@@ -351,19 +351,32 @@ let coursesCategoryList = [
 let courseSlideItems = document.querySelector('#courses-slide-items');
 let coOperateLists = [
     './assets/img/envato-logo.svg',
+    './assets/img/behance-logo.svg',
+    './assets/img/dribbbe-logo.svg',
+    './assets/img/google-logo.svg',
+    './assets/img/slack-logo.svg',
+    './assets/img/udemy-logo.svg',
     './assets/img/envato-logo.svg',
+    './assets/img/behance-logo.svg',
+    './assets/img/dribbbe-logo.svg',
+    './assets/img/google-logo.svg',
+    './assets/img/slack-logo.svg',
+    './assets/img/udemy-logo.svg',
     './assets/img/envato-logo.svg',
+    './assets/img/behance-logo.svg',
+    './assets/img/dribbbe-logo.svg',
+    './assets/img/google-logo.svg',
+    './assets/img/slack-logo.svg',
+    './assets/img/udemy-logo.svg',
     './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
-    './assets/img/envato-logo.svg',
+    './assets/img/behance-logo.svg',
+    './assets/img/dribbbe-logo.svg',
+    './assets/img/google-logo.svg',
+    './assets/img/slack-logo.svg',
+    './assets/img/udemy-logo.svg',
+
 ]
+let coOperateSlidesItems = document.querySelector('#co-operate-Slides');
 renderCategoryCourseList = () => {
     coursesSlidesList.forEach((item, index) => {
         let courseSlideItem = `
@@ -429,6 +442,22 @@ renderCategoryCourseList = () => {
     </a>`
         coursesCategoryItems.insertAdjacentHTML("beforeend", listCourseCategory)
     })
+    coOperateLists.forEach((item) => {
+        let listcoOperateSlides = `
+    <!-- co-operate item -->
+    <div class="swiper-slide">
+    <a href="#" class="co-operate-item">
+    <div class="img">
+            <img src="${item}" alt="">
+            </div>
+        </a>
+    </div>
+    <!-- End co-operate item -->
+    `;
+        coOperateSlidesItems.insertAdjacentHTML("beforeend", listcoOperateSlides);
+
+    })
+
 }
 renderCategoryCourseList();
 let slideItems = document.querySelectorAll('.courses-slide .course-item');

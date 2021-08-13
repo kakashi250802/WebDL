@@ -315,6 +315,7 @@ header .logo {
     padding-top: 80px;
     position: relative;
     padding-bottom: 40px;
+    overflow: hidden;
 }
 
 .courses-slide {
@@ -391,10 +392,13 @@ header .logo {
 }
 
 .course-item>.img {
+    top: 13px;
     border-radius: 4px;
+    display: flex;
+    margin: 0 auto;
     padding-top: 16px;
-    width: 370px;
-    height: 286px;
+    width: 338px;
+    height: 263px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -837,9 +841,33 @@ input[type=range]::-webkit-slider-thumb {
 
 .co-operate-item {
     padding: 8px;
+    display: flex;
+    max-width: 164px;
+    height: 64px;
+}
+
+.co-operate-slide .swiper-wrapper {
+    align-items: center;
+}
+
+.co-operate-item .img {
+    display: flex;
+    width: 164px;
+    height: 64px;
+    /* padding: 164px; */
+    overflow: hidden;
+    position: relative;
 }
 
 .co-operate-item img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.co-operate-item:hover .img {
     box-shadow: 0px 0px 2px 0px var(--other-text);
 }
 
