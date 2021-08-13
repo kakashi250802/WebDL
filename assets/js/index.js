@@ -349,6 +349,21 @@ let coursesCategoryList = [
     }
 ]
 let courseSlideItems = document.querySelector('#courses-slide-items');
+let coOperateLists = [
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+    './assets/img/envato-logo.svg',
+]
 renderCategoryCourseList = () => {
     coursesSlidesList.forEach((item, index) => {
         let courseSlideItem = `

@@ -220,6 +220,7 @@ header .logo {
 .polka-dots-bottom-left {
     bottom: 0;
     left: 0;
+    opacity: 0.5;
 }
 
 .polka-dots-bottom-left>img {
@@ -381,6 +382,12 @@ header .logo {
     display: block;
     background: var(--white-color);
     border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.course-item:hover {
+    background: var(--Tittle--active-color);
+    color: var(--white-color);
 }
 
 .course-item>.img {
@@ -442,6 +449,11 @@ header .logo {
     color: var(--Tittle--active-color);
     font-weight: 600;
     font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.course-item:hover .price>.current {
+    color: var(--white-color);
 }
 
 .section .control {
