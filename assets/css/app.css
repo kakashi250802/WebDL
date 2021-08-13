@@ -975,3 +975,11 @@ footer .license {
 footer .license .linked {
     font-size: 24px;
 }
+
+footer .license .linked>a {
+    transition: all 0.7s ease-in-out;
+}
+
+footer .license .linked>a:hover {
+    color: var(--Tittle--active-color);
+}
