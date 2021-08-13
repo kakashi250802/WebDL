@@ -223,6 +223,11 @@ header .logo {
     opacity: 0.5;
 }
 
+.polka-dots-top-left {
+    top: -40px;
+    left: -40px;
+}
+
 .polka-dots-bottom-left>img {
     bottom: 0;
     margin-left: 0px;
@@ -473,6 +478,7 @@ header .logo {
     padding: 8.5px 14px;
     border-radius: 12px;
     color: var(--Tittle--active-color);
+    transition: all 0.4s ease-in-out;
 }
 
 .progress-bar {
@@ -507,6 +513,7 @@ input[type=range]::-webkit-slider-thumb {
 .swiper-button-disabled {
     cursor: default;
     color: var(--icon-color) !important;
+    background: var(--white-color) !important;
 }
 
 .polka-dots-bottom {
@@ -912,6 +919,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 footer {
+    position: relative;
     background-color: #282834;
 }
 
@@ -919,13 +927,38 @@ footer .title {
     color: var(--white-color);
     font-size: 24px;
     font-weight: 500;
-    padding: 72px 0 47px;
+    padding: 40px 0;
+    position: relative;
+}
+
+footer .title::before {
+    top: 50%;
+    content: " ";
+    width: 4px;
+    height: 24px;
+    background-color: var(--Tittle--active-color);
+    position: absolute;
+    left: -4%;
+    border-radius: 8px;
+    transform: translateY(-50%);
 }
 
 footer .category {
     padding-bottom: 50px;
     color: var(--violet-color);
     font-size: 18px;
+}
+
+footer .category>li {
+    margin: 18px 0;
+}
+
+footer .category>li>a {
+    transition: all 0.5s ease-in-out;
+}
+
+footer .category>li:hover a {
+    color: var(--Tittle--active-color);
 }
 
 footer .license {
