@@ -16,7 +16,7 @@ let scroll = window.requestAnimationFrame || function(callback) {
 isElInViewPort = (el) => {
     let rect = el.getBoundingClientRect();
 
-    let distance = 200;
+    let distance = 50;
 
     return rect.top <= (window.innerHeight - distance || document.documentElement.clientHeight - distance);
 }

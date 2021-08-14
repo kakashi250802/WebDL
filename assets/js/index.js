@@ -468,7 +468,7 @@ renderCategoryCourseList = () => {
         let listcoOperateSlides = `
     <!-- co-operate item -->
     <div class="swiper-slide">
-    <a href="#" class="co-operate-item ">
+    <a href="#" class="co-operate-item to-top show-on-scroll">
     <div class="img">
             <img src="${item}" alt="">
             </div>

@@ -1029,3 +1029,9 @@ footer .license .linked>a:hover {
 .trans-dl-8 {
     transition-delay: 0.8s;
 }
+
+#my-scrollbar {
+    width: 100vw;
+    height: max-content;
+    /* overflow: auto; */
+}
