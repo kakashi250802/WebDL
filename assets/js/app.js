@@ -13,6 +13,7 @@ let scroll = window.requestAnimationFrame || function(callback) {
 };
 
 
+
 isElInViewPort = (el) => {
     let rect = el.getBoundingClientRect();
 
